@@ -2,7 +2,7 @@
 
 $curl = curl_init();
 
-$authEncoded = base64_encode('noblexeyi:Abram193#@Abram193#@');
+$authEncoded = base64_encode('username:password');
 
 $phoneNo = "";
 $message = "Hello, is SMS working now?";
